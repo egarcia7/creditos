@@ -5,12 +5,17 @@
  */
 package co.edu.ims.modelo;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 /**
  *
  * @author 012345678
  */
+@Entity
 public class Genero {
     
+    @Id
     private String codigo;
     
     //Constructores
